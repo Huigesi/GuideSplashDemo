@@ -40,8 +40,8 @@ public class SplashActivity extends BaseActivity{
 			mHandler.sendEmptyMessageDelayed(ENTER_SPLASH, delayMillis);
 			
 		}else {
-			//mHandler.sendEmptyMessageDelayed(ENTER_SPLASH, delayMillis);
-			mHandler.sendEmptyMessageDelayed(ENTER_HOME,delayMillis);
+			mHandler.sendEmptyMessageDelayed(ENTER_SPLASH, delayMillis);
+			//mHandler.sendEmptyMessageDelayed(ENTER_HOME,delayMillis);
 		}
 	}
 

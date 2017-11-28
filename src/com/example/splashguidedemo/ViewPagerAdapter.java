@@ -58,7 +58,8 @@ public class ViewPagerAdapter extends PagerAdapter {
 		// 设置跳转按钮
 		if(position==2){
 			textView.setVisibility(View.VISIBLE);
-			textView.setBackgroundColor(Color.GREEN);
+			textView.setTextColor(Color.WHITE);
+			textView.setBackgroundColor(Color.parseColor("#219ca6"));
 		}else{
 			textView.setVisibility(View.GONE);
 		}
@@ -75,6 +76,7 @@ public class ViewPagerAdapter extends PagerAdapter {
 		((ViewPager)container).addView(view,0);
 		return view;
 	}
+	//没有contentView，用不了文艺式
 	/*class ViewHolder{
 		
 	}*/
